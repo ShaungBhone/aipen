@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-white: 255 255 255;
+    --color-primary: 16 24 40;
+    --color-secondary: 71 84 103;
+    --color-indigo: 127 86 217;
+    --color-gray: 249 250 251;
+  }
+}
+
+@layer components {
+  .font-aipen {
+    @apply text-base font-semibold;
+  }
+}
